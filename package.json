@@ -1,0 +1,33 @@
+{
+  "name": "postcss-color-unify",
+  "version": "0.0.1",
+  "description": "PostCSS plugin color unify",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "color",
+    "color-distance"
+  ],
+  "author": "Sazonov Alexey <effrenus@gmail.com>",
+  "license": "MIT",
+  "repository": "effrenus/postcss-color-unify",
+  "bugs": {
+    "url": "https://github.com/effrenus/postcss-color-unify/issues"
+  },
+  "homepage": "https://github.com/effrenus/postcss-color-unify",
+  "dependencies": {
+    "color": "^0.11.1",
+    "color-diff": "^0.1.7",
+    "postcss": "^5.0.14",
+    "postcss-message-helpers": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.9.1",
+    "eslint": "^1.10.3"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js",
+    "eslint": "eslint *.js"
+  }
+}
